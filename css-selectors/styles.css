@@ -3,13 +3,17 @@
   margin: 0 auto;
 }
 
-.synopsis {
+.synopsis em {
+  font-style: normal;
+}
+
+.page p:first-of-type {
   color: #7e8184;
   font-style: italic;
 }
 
-.synopsis em {
-  font-style: normal;
+.page p:last-of-type {
+  margin-bottom: 50px;
 }
 
 .button:link,
@@ -76,4 +80,8 @@ a:visited:hover {
 }
 a:visited:active {
   color: red;
+}
+
+#button-2 {
+  color: #5d6063; /* Dark gray */
 }
